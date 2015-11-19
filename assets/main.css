@@ -1,0 +1,56 @@
+caption {
+	text-align: center;
+	font-size: 24px;
+	font-family: "Roboto", serif;
+	font-weight: 300;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 5px;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+}
+
+th {
+	background-color:#fff;
+	font-weight: 400;
+	text-align: left;
+}
+
+table#t01 {
+	table-layout: fixed;
+    width: 1000px;
+    background-color: #ededee;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+}
+
+.largeImage-container {
+	position: relative;
+}
+
+.expanded {
+	position: relative;
+	width: 100%
+}
+
+.modal {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	display: none;
+}
+
+html, body {
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+.table-container {
+	padding: 15px;
+}
